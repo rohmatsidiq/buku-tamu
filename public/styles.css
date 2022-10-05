@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.288);
+  position: absolute;
+  top: 0;
+}
+
+.navbar .wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .wrapper .logo {
+  font-family: 'Oleo Script', cursive;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.navbar .wrapper .nav_menu a {
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar .wrapper .nav_menu a:hover {
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#hero {
+  height: 500px;
+  background-image: url('https://images.pexels.com/photos/7232828/pexels-photo-7232828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h3,
+#hero h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  text-shadow: 2px 1px 5px white;
+}
+
+.hero_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero h1 {
+  font-size: 4em;
+  margin: 10px 0;
+}
+
+#hero h3 {
+  margin: 10px 0;
+}
+
+#hero button {
+  width: 50%;
+  margin: 10px 0;
+  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+  border: none;
+  background-color: rgb(131, 66, 12);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px white;
+  font-weight: bold;
+}
+
+#hero button:hover {
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+.buku_tamu {
+  max-width: 1080px;
+  margin: 50px auto;
+}
+
+.buku_tamu h1 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+table {
+  font-family: 'Poiret One', cursive;
+  width: 100%;
+  text-align: center;
+}
+
+table thead {
+  font-weight: bolder;
+}
+
+table tbody td {
+  background-color: rgb(255, 235, 218);
+  margin: 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+table thead td {
+  background-color: rgb(255, 219, 188);
+  margin: 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
